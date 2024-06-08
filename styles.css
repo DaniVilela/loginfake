@@ -1,0 +1,67 @@
+body{
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-container {
+    background-color: white;
+    width: 430px;
+    padding: 30px 50px 0px 50px;
+    box-shadow:  4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 545;
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top:5px ;
+}
+.form-group input{
+    height: 40px;
+}
+.img-container img{
+    width: 30px;
+    height: 30px;
+}
+.microsoft{
+    color: gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.btn-container button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 0px;
+    background-color: #005DA6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    padding: 5px 15px 5px 15px;
+}
+
+.p-container2 p{
+    text-decoration: none;
+    margin-top: .8rem;
+    font-size: .8rem;
+}
+a{
+    text-decoration: none;
+    color: #0067b8;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+    color: gray;  
+}
+.password a{
+   display: flex;
+   justify-content: end;
+}

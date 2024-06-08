@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.message {
+    font-size: 2rem;
+    font-weight: bold;
+    animation: changeColor 1s infinite alternate;
+    color: white;
+}
+#counter{
+    color: white;
+}
+@keyframes changeColor {
+    0% { color: rgb(255, 0, 0); } /* Rojo */
+    20% { color: rgb(255, 165, 0); } /* Naranja */
+    40% { color: rgb(255, 255, 0); } /* Amarillo */
+    60% { color: rgb(0, 128, 0); } /* Verde */
+    80% { color: rgb(0, 0, 255); } /* Azul */
+    100% { color: rgb(128, 0, 128); } /* Morado */
+}
