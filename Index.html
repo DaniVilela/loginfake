@@ -20,7 +20,7 @@
                 <p class="microsoft">Microsoft</p>
             </div>
             <p style="font-size: 1.3rem; font-weight: 600; margin: 0;">Iniciar sesión</p>
-            <form action="register.php" method="POST">
+            <form>
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" name="email"
                         placeholder="Correo electrónico, teléfono o Skype">
@@ -34,12 +34,10 @@
                     <p>¿No tiene una cuenta? <a href="#">Cree una.</a></p>
                     <p><a href="#">¿No puede acceder a su cuenta?</a></p>
                 </div>
-
-                <div class="d-flex justify-content-end btn-container">
-                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                </div>
-
             </form>
+            <div class="d-flex justify-content-end btn-container link">
+                <button class="btn btn-primary" onclick="redireccionar()">Iniciar Sesión</button>
+            </div>
         </div>
 
     </div>
@@ -49,7 +47,7 @@
 
 
 
-
+    <script src=" script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

@@ -52,7 +52,7 @@ body{
     margin-top: .8rem;
     font-size: .8rem;
 }
-a{
+.p-container2 a{
     text-decoration: none;
     color: #0067b8;
     transition: color 0.3s, text-decoration 0.3s;
